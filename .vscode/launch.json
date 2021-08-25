@@ -1,28 +1,11 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
     "configurations": [
-        {
-            "name": "Attach to Edge",
-            "port": 9222,
-            "request": "attach",
-            "type": "pwa-msedge",
-            "webRoot": "${workspaceFolder}"
-        },
-        {
-            "type": "pwa-msedge",
-            "request": "launch",
-            "name": "Open Aug17.html",
-            "file": "c:\\Users\\corey\\Documents\\Intro to programming\\Aug17.html"
-        },
+
         {
             "name": "Launch Microsoft Edge and open the Edge DevTools",
             "request": "launch",
             "type": "vscode-edge-devtools.debug",
-            "file": "c:\\Users\\corey\\Documents\\Intro to programming\\Aug17.html"
-            // Provide your project's url to finish configuring
+            "url": "C:\Users\corey\Documents\GitHub\CSC-160-work\Second Class\Aug24.html" // Provide your project's url to finish configuring
         }
     ]
 }
