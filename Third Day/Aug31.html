@@ -1,0 +1,110 @@
+<!-- ctrl + / -->
+<!-- This will introduce content from chapter 2.
+We will learn basic HTML 5 Aug, 24 2021 lecture -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- The head contains info the browser needs to interpret your webpage -->
+        <meta charset="utf-8">
+        <title>Chapter 2 Webpage</title>
+    </head>
+    <body>
+        <!-- The body contains all the content for your webpage -->
+        <!-- HTML 5 Suggests you use structural elements like header, 
+            main, foorter and nav to organize the content of your page 
+            and helps with accessibility for disabilities -->
+        <header>
+            <!-- The page headers will display stuff like company name and logos -->
+            <h1> CSC 160 </h1>
+            <h2> HTML Basics </h2>
+            <hr>
+        </header>
+        <main>
+            <!-- The main content of the page goes in main -->
+            <h1> Headings range from level 1 to level 6.
+                This is H1.
+            </h1>
+            <h3> Headings always include a line break after them.</h3>
+            <p> This is a paragraph of text. This is meaningless text 
+                that is very meaningless and has no purpose. &nbsp; The point 
+                of this meaningless text is that it is  meaningless and 
+                is just filler to be meaningless. 
+                    <br>
+                    <b> 
+                        This sentence is in Bold 
+                        but is also pointless.
+                    </b> 
+                    <em>
+                        This is in Intalics.
+                    </em> 
+                </p>
+                <div>
+                    <!-- divs let us group content together so it can be
+                    treated as one unit for formatting -->
+                    <h2>Let's play with lists!</h2>
+                    <h3>Odered lists</h3>
+                    <ol>
+                        <li>Blue</li>
+                        <li>Red</li>
+                        <li>Yellow</li>
+                    </ol>
+                    <h3>Unordered lists</h3>
+                    <ul>
+                        <li>Blue</li>
+                        <li>Red</li>
+                        <li>Yellow</li>
+                    </ul>
+                    <h3>Nested Lists</h3>
+                    <ul>
+                        <li>Colors
+                            <ol>
+                                <li>Blue</li>
+                                <li>Red</li>
+                                <li>Yellow</li>
+                            </ol>
+                        </li>
+                        <li>Shapes
+                            <ul>
+                                <li>Cube</li>
+                                <li>Triangle</li>
+                                <li>Circle</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <h2>Let's create a table!</h2>
+                <table>
+                    <tr>
+                        <!-- This is a table row -->
+                        <th rowspan = "3">Fall <br> 2021</th>
+                        <th>Course Number</th>
+                        <th>Course Name</th>
+                        <th colspan="2">CRNs</th>
+                    </tr>
+                    <tr>
+                        <td>CSC160</td>
+                        <td>Intro to Programming</td>
+                        <td>222222</td>
+                        <td>222223</td>
+                    </tr>
+                    <tr>
+                        <td>CSC190</td>
+                        <td>00 Programming</td>
+                        <td>222222</td>
+                        <td>222224</td>
+                    </tr>
+                </table>
+                <h2>Let's Create some links</h2>
+                <a href="https://www.eku.edu/">EKU</a>
+                <a href="C:\Users\corey\Documents\Intro to programming\First day in-class\Aug17.html">Our First Page</a>
+                <a href="mailto:corey_venice@mymail.eku.edu">Email Me</a>
+                <br>
+                <h2>Let's add some special symbols</h2>
+                <h4>&gt; Greater than symbol</h4>
+                <h4>&lt; Less than symbol</h4>
+                <a href="https://i.pinimg.com/originals/e4/1f/00/e41f009f0341ab19724265fdcc441ce9.gif"><img src="https://i.pinimg.com/originals/e4/1f/00/e41f009f0341ab19724265fdcc441ce9.gif"></a>
+        </main>
+        <footer>
+        </footer>
+    </body>
+</html>
